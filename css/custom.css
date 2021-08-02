@@ -79,7 +79,7 @@ p {
 .header-bottom {
     float: left;
     width: 100%;
-    background: #a81083;
+    background: #129b3b;
 }
 header {
     float: left;
@@ -111,9 +111,9 @@ header {
     font-weight: 700;
 }
 .header-bottom nav.main-menu ul.nav.navbar-nav > li a:hover, .header-bottom nav.main-menu ul.nav.navbar-nav > li a:focus, .header-bottom nav.main-menu ul.nav.navbar-nav > li a.active {
-    color: #b40d83;
+    color: #0fbd4d;
     background: #fff;
-    box-shadow: 5px 5px 0 0px #b40d83;
+    box-shadow: 5px 5px 0 0px #129b3b;
 }
 .header-top {
     float: left;
@@ -125,7 +125,7 @@ header {
     height: auto;
     font-size: 26.5px;
     margin-top: 10px;
-    text-shadow: 2px 2px 0 #a81083, 2px -2px 0 #a81083, -2px 2px 0 #b40d83, -2px -2px 0 #a81083, 2px 0px 0 #b40d83, 0px 2px 0 #a81083, -2px 0px 0 #b40d83, 0px -2px 0 #a81083;
+    text-shadow: 2px 2px 0 #129b3b, 2px -2px 0 #129b3b, -2px 2px 0 #129b3b, -2px -2px 0 #129b3b, 2px 0px 0 #129b3b, 0px 2px 0 #129b3b, -2px 0px 0 #129b3b, 0px -2px 0 #129b3b;
     color: white;
     letter-spacing: .2rem;
 }
@@ -142,7 +142,7 @@ header {
 }
 .info-inner span.icontop {
     float: left;
-    background: #b40d83;
+    background: #129b3b;
     width: 45px;
     height: 45px;
     text-align: center;
@@ -307,7 +307,7 @@ header {
 .info-inner:hover span.icontop,.info-inner:focus span.icontop {
     border-radius: 100%;
     color: #fff;
-    background: #b40d83;
+    background: #177245;
 }
 .typewrite {
     font-size: 60px;
@@ -402,7 +402,7 @@ body.clinic_version .first-section h2 {
     bottom: 0px;
     z-index: 0;
     border-bottom: solid transparent 65px;
-    border-right: solid #a8108380 70px;
+    border-right: solid #129b3b66 70px;
     left: -70px;
 
 }
@@ -447,7 +447,7 @@ body.clinic_version .first-section h2 {
 .heading h2::after {
     width: 70px;
     height: 4px;
-    background: #a8108380;
+    background: #18b163;
     content: "";
     display: block;
     margin: 10px auto 0;
@@ -471,11 +471,22 @@ body.clinic_version .section {
 .message-box p {
     margin-bottom: 15px;
 }
+/* .service-widget::after{
+    font-family: FontAwesome;
+    content: "\f4d6";
+    position: absolute;
+    font-weight: 900;
+    top: 0;
+    left: -10;
+    font-size: 5rem;
+    color: #129b3b;
+    transform: rotate(-90deg);
+} */
 .service-widget h3,.service-widget p{
     color: #ffffff;
     padding: 12px ;
     margin: 0;
-    background: #a81083;
+    background: #129b3b;
     
 }
 .service-widget h3 {
@@ -766,7 +777,7 @@ body.clinic_version .footer .widget-title h3 {
     min-height: 450px;
     /* background: yellow; */
     background-image:url(../images/contact1.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     /* background-size: cover; */
     /* background-attachment: fixed; */
     background-position: left;
@@ -779,7 +790,7 @@ body.clinic_version .footer .widget-title h3 {
     position: absolute;
     width: 40%;
     height: 100%;
-    background: rgba(0,0,0,.8);
+    background: rgb(0 0 0 / 96%);
     z-index: 1;
     padding: 60px;
 }
@@ -804,7 +815,7 @@ body.clinic_version .footer .widget-title h3 {
 }
 #submitButton {
     padding: 15px 30px;
-    background: linear-gradient(to right, #a81083 0%, #d89ac9 100%);
+    background: linear-gradient(to right, #129b3b 0%, #9decb5b5 100%);
     color: #fff;
     border-radius: 50px;
     margin-top: 10px;
@@ -841,7 +852,7 @@ body.clinic_version .footer .widget-title h3 {
     color: #222;
     font-size: 22px;
     font-weight: 600;
-    border-left: solid #a81083 5px;
+    border-left: solid #18b163 5px;
     padding: 0 0 0 15px;
     margin-bottom: 24px;
 }
@@ -859,7 +870,7 @@ body.clinic_version .footer .widget-title h3 {
 }
 .copyright-area {
     padding: 20px 0px;
-    background: #a81083;
+    background: #129b3b;
     color: #fff;
 	float:left;
 	width:100%;
@@ -887,7 +898,7 @@ body.clinic_version .footer .widget-title h3 {
     font-size: 25px;
     width: 30px;
     text-align: center;
-	color: #a81083;
+	color: #18b163;
 }
 .preloader {
     width: 350px;
@@ -1145,7 +1156,7 @@ nav.main-menu .navbar-toggle {
     margin-top: 2px;
     margin-right: 0;
     margin-bottom: 0;
-    background: linear-gradient(to right, #bb138a 0%, #d186bf 100%);
+    background: linear-gradient(to right, #129b3b 0%, #0fbd4d66 100%);
     border: none;
     border-radius: 0;
     font-size: 22px;

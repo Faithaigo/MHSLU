@@ -59,9 +59,9 @@ GRADIENTS
 .grd1:focus {
     background-position: 100px;
     color: #ffffff;
-    background: #2750ff;
-    background: -moz-linear-gradient(left, #2750ff 0%, #db00ce 100%);
-    background: -webkit-linear-gradient(left, #2750ff 0%, #db00ce 100%);
-    background: linear-gradient(to right, #2750ff 0%, #db00ce 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2750ff', endColorstr='#db00ce', GradientType=1);
+    background: #129b3b;
+    background: -moz-linear-gradient(left, #5ae684 0%, #129b3b 100%);
+    background: -webkit-linear-gradient(left, #5ae684 0%, #129b3b 100%);
+    background: linear-gradient(to right, #5ae684 0%, #129b3b 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#5ae684', endColorstr='#129b3b', GradientType=1);
 }
